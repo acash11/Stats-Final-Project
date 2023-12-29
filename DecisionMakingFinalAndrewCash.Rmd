@@ -293,7 +293,9 @@ sum(q)/length(redIndexes)
 ```
 
 
-The main take-away is that it is inconsistent, which is in-line for an unsupervised model. The red wine data almost always stays together, no matter which cluster it ends up in. From my observations, one of two things tends to happen: either one cluster is mostly red wine and the other is mostly white wine, or one cluster has mostly red wine but also about half of the white wine, and the other cluster has the other half of white wine. This also seems to be the case for R's built in k-means test. In the former situation, yes, two clusters is absolutely correct, that is what you would want from this algorithm. For the later situation it's trickier, but I would still say yes due to the nature of k-means clustering.
+The main take-away is that it is inconsistent, which is in-line for an unsupervised model. The red wine data almost always stays together, no matter which cluster it ends up in. From my observations, one of two things tends to happen: either one cluster is
+mostly red wine andthe other is mostly white wine, or one cluster has mostly red wine but also about half of the white wine, and the other cluster has the other half of white wine. 
+This also seems to be the case for R's built in k-means test. In the former situation, yes, two clusters is absolutely correct, that is what you would want from this algorithm. For the later situation it's trickier, but I would still say yes due to the nature of k-means clustering.
 
 3. A mouse is placed in a 4 × 4 square grid. The mouse can vertically and horizontally through the
 grid, but can’t leave the grid. The mouse moves with equal probably to any adjacent cell (the mouse
